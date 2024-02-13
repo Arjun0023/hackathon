@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-
+// commit
 const CloudPlatformCalculator = () => {
   const [computeHours, setComputeHours] = useState(0);
   const [storageGB, setStorageGB] = useState(0);
