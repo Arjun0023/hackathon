@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-jjj
 
 const CloudPlatformCalculator = () => {
   const [computeHours, setComputeHours] = useState(0);
