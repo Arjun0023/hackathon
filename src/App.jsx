@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Chart from 'chart.js/auto';
+jjj
 
 const CloudPlatformCalculator = () => {
   const [computeHours, setComputeHours] = useState(0);
