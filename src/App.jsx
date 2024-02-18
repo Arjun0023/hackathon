@@ -30,10 +30,10 @@ const CloudPlatformCalculator = () => {
             label: 'Total Cost',
             data: data,
             backgroundColor: [
-              'rgba(255, 99, 132, 0.2)',
-              'rgba(54, 162, 235, 0.2)',
-              'rgba(255, 206, 86, 0.2)',
-              'rgba(75, 192, 192, 0.2)'
+              'rgb(255, 99, 132)', // Dark red
+      'rgb(54, 162, 235)', // Dark blue
+      'rgb(255, 206, 86)', // Dark yellow
+      'rgb(75, 192, 192)'
             ],
             borderColor: [
               'rgba(255, 99, 132, 1)',
@@ -123,12 +123,12 @@ const CloudPlatformCalculator = () => {
   return (
     <div className="cloud-platform-calculator">
     <div className="header">
-    <h1 style={{ textAlign: 'center', fontSize: '24px' }}>Vertiras Hackathon 2.0</h1>
+    <h1 style={{ textAlign: 'center', fontSize: '24px' }}>Uconnect Hackathon 2024</h1>
     <img src="https://www.gartner.com/imagesrv/peer-insights/vendors/logos/veritas-technologies.jpg" alt="Vertiras Logo" style={{ display: 'block', margin: '0 auto', width: '300px' }} />
-    <h2 style={{ textAlign: 'center', fontSize: '20px', marginBottom: '20px' }}>TCO Calculator</h2>
+    <h2 style={{ textAlign: 'center', fontSize: '20px', marginBottom: '20px' }}>Total Cost of Ownership (TCO) Calculator</h2>
       </div>
-      <h1 style={{ fontSize: '24px', fontFamily: 'Arial', fontWeight: 'bold' }}>Cloud Platform TCO Calculator for Cloud Workloads</h1>
-      <h2 style={{ fontSize: '20px', fontFamily: 'Arial', fontWeight: 'bold' }}>Enter the details of your on-premise workloads, will let you know how much it would cost to run these workloads on the major cloud platforms including Amazon AWS, Microsoft Azure, Oracle OCI and Google GCP.</h2>
+      <h1 style={{ fontSize: '24px', fontFamily: 'Arial', fontWeight: 'bold' }}>Empower decision-making by estimating total costs effortlessly using our TCO calculator</h1>
+      <h2 style={{ fontSize: '20px', fontFamily: 'Arial', fontWeight: 'bold' }}>Enter the details of your on-premise workloads,we will let you know how much it would cost to run these workloads on the major cloud platforms including Amazon AWS, Microsoft Azure, Oracle OCI and Google GCP.</h2>
       <div className="input-section">
         <label htmlFor="computeHours">Compute Hours:</label>
         <input type="number" id="computeHours" value={computeHours} onChange={(e) => setComputeHours(parseInt(e.target.value))} />
